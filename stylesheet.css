@@ -1,0 +1,68 @@
+.title {
+  color: #02ccba;
+}
+
+body {
+  margin: 0;
+  font-family: "fantasy";
+  background-color: black;
+}
+
+.container {
+  width: 1200px;
+  padding-top: 0;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 75px;
+  width: 100%;
+  background-color: rgba(38, 38, 38, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left h2{
+  color: white;
+  font-size: 20px;
+  padding-left: 5px;
+  padding-right: 100px;
+  float: left
+}
+
+.header-list li{
+  height: 65px;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+  font-size: 16px;
+  color: white;
+  list-style: none;
+  float: right;
+  margin-left: 5px;
+}
+
+.link {
+	display: block;
+	text-decoration: none;
+  line-height: 65px;
+  padding: 0 25px;
+}
+
+.top-wrapper {
+  background-image: url("http://saho-itakura.chips.jp/IMG_4824.JPG");
+  background-size: cover;
+  height: 800px;
+  padding: 50px 0 150px 0;
+  text-align: left;
+}
+
+
+.container h1{
+  font-size: : 35px;
+  margin-top: 30px;
+}
+.container p {
+  font-size: 20px;
+}
