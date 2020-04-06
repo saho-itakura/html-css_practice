@@ -5,7 +5,7 @@
 body {
   margin: 0;
   font-family: "fantasy";
-  background-color: black;
+  background-color: white;
 }
 
 .container {
@@ -27,13 +27,11 @@ header {
 .header-left h2{
   color: white;
   font-size: 20px;
-  padding-left: 5px;
-  padding-right: 100px;
+  padding-left: 10px;
   float: left
 }
 
 .header-list li{
-  height: 65px;
   background-color: rgba(255, 255, 255, 0.3);
   transition: all 0.5s;
   font-size: 16px;
@@ -51,18 +49,26 @@ header {
 }
 
 .top-wrapper {
-  background-image: url("http://saho-itakura.chips.jp/IMG_4824.JPG");
+  background-image: url("http://saho-itakura.chips.jp/cover.jp2");
   background-size: cover;
-  height: 800px;
-  padding: 50px 0 150px 0;
-  text-align: left;
+  height: 780px;
+  width: 1420px;
+  text-align: right;
 }
 
 
 .container h1{
-  font-size: : 35px;
+  font-size: 35px;
   margin-top: 30px;
 }
 .container p {
   font-size: 20px;
+}
+.contents-wrapper{
+   background-color: white;
+}
+
+.contents-icon{
+  height: 50;
+  width: 30;
 }
